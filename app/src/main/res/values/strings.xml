@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KKK</string>
+    <string name="main_app_title">Mes compétences</string>
+
+    <string name="home_page_title">Ma liste de compétences</string>
+
+    <string name="popup_detail_description">Description:</string>
+    <string name="popup_detail_tags">Tags:</string>
+    <string name="popup_detail_level">Niveau:</string>
+
+    <string name="new_comp_page_title">Nouvelle compétence</string>
+
+    <string name="new_comp_form_name_placeholder">Nom de la compétence</string>
+    <string name="new_comp_form_description_placeholder">Descriptions</string>
+    <string name="new_comp_form_tags_placeholders">Tags</string>
+    <string name="new_comp_form_submit_button">Ajouter</string>
+
+
+    <string name="statistique">Statistiques</string>
+</resources>
