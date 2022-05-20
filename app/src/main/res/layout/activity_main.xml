@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#e7390b"
+    android:background="#ff97b7"
     android:layout_height="match_parent"
     tools:context=".MainActivity"    >
 
@@ -31,7 +31,7 @@
             android:id="@+id/page_title"
             style="@style/BasicTitleStyle"
             android:layout_width="wrap_content"
-            android:textColor="@color/white"
+            android:textColor="#ff0054"
             android:layout_height="wrap_content"
             android:text="@string/home_page_title"
             app:layout_constraintStart_toStartOf="parent"
@@ -48,10 +48,12 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_menu"
         android:layout_width="match_parent"
-        android:background="#85eafc"
+        android:background="#a4133c"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:itemTextColor="@drawable/new_select_color"
+        app:itemIconTint="@drawable/new_select_color"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/botton_new_menu" />
 </androidx.constraintlayout.widget.ConstraintLayout>

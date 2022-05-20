@@ -25,16 +25,17 @@ class StatistiqueAdapter(val context: Context, val comptList: List<CompetenceMod
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
         if(comptList.size >= 1){
-            val competences = comptList.sortedBy { it.level }
+            val competencesTop = comptList.sortedBy { it.level }
+            val competencesDate = comptList.sortedBy { it.modifiedAt.time }
 
             var total = 0
 
-            for (comp in competences){
+            for (comp in comptList){
                 total += comp.level
             }
 
-            holder.comptTop.adapter = CompetenceAdapter(context, listOf<CompetenceModel>(competences.last()))
-            holder.comptBot.adapter = CompetenceAdapter(context, listOf<CompetenceModel>(competences.first()))
+            holder.comptTop.adapter = CompetenceAdapter(context, listOf<CompetenceModel>(competencesTop.last()))
+            holder.comptBot.adapter = CompetenceAdapter(context, listOf<CompetenceModel>(competencesDate.last()))
             holder.total.text = total.toString()
         }
     }

@@ -13,6 +13,6 @@
     <item
         android:id="@+id/statistique"
         android:title="Statistique"
-        android:icon="@drawable/ic_baseline_fiber_new_24"
+        android:icon="@drawable/ic_baseline_new_releases_24"
         />
 </menu>

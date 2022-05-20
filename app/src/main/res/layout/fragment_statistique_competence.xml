@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#283e0f"
+    android:background="#ffa6c1"
     android:layout_height="match_parent">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -37,7 +37,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:textColor="@color/white"
+        android:textColor="#ff0054"
         android:layout_height="wrap_content"
         android:text="Top compétence"
         android:textSize="30dp"
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Niveau total"
-        android:textColor="@color/white"
+        android:textColor="#ff0054"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,10 +58,10 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:textColor="@color/white"
+        android:textColor="#ff0054"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Derniére compétence"
+        android:text="Derniére modification"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

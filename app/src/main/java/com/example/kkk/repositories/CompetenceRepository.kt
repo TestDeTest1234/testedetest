@@ -6,6 +6,7 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import java.util.*
 
 object CompetenceRepository {
     val dbref = FirebaseDatabase.getInstance("https://kkk-5f02e-default-rtdb.europe-west1.firebasedatabase.app/").getReference("competences")
@@ -30,6 +31,7 @@ object CompetenceRepository {
     }
 
     fun save(competence: CompetenceModel):Unit{
+        competence.modifiedAt = Date()
         dbref.child(competence.id).setValue(competence)
     }
 

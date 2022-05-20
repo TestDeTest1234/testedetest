@@ -6,6 +6,7 @@ class CompetenceModel(
     val id: String = UUID.randomUUID().toString(),
     val name: String = "UNKONW",
     val description: String = "",
+    var modifiedAt: Date = Date(),
     private var _level: Int = 0,
     var tags: MutableList<TagModel> = mutableListOf<TagModel>()){
 
