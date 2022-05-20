@@ -1,4 +1,4 @@
-# Gestion compétences :ice_cream::ice_cream::rice_ball::ice_cream::ice_cream::rice::rice_cracker::ice_cream::ice_cream:
+# Gestion compétences :icecream::rice_ball::icecream::rice::rice_cracker::icecream:
 
 
 Why do we use it?
